@@ -1,4 +1,4 @@
-const MESSAGE = {
+const MESSAGES = {
   USERS: {
     USER_NOT_FOUND: "Không tìm thấy người dùng",
     USER_ALREADY_EXISTS: "Người dùng đã tồn tại",
@@ -29,4 +29,27 @@ const MESSAGE = {
     ASSIGNMENT_DELETED: "Bài tập đã được xóa thành công",
     ASSIGNMENT_SUBMITTED: "Bài tập đã được nộp thành công",
   },
+  ENROLLMENTS: {
+    ENROLLMENT_NOT_FOUND: "Không tìm thấy thông tin đăng ký",
+    ENROLLMENT_ALREADY_EXISTS: "Thông tin đăng ký đã tồn tại",
+    ENROLLMENT_CREATED: "Đăng ký đã được tạo thành công",
+    ENROLLMENT_UPDATED: "Thông tin đăng ký đã được cập nhật thành công",
+    ENROLLMENT_DELETED: "Đăng ký đã được xóa thành công",
+  },
+  SUBJECTS: {
+    SUBJECT_NOT_FOUND: "Không tìm thấy môn học",
+    SUBJECT_ALREADY_EXISTS: "Môn học đã tồn tại",
+    SUBJECT_CREATED: "Môn học đã được tạo thành công",
+    SUBJECT_UPDATED: "Thông tin môn học đã được cập nhật thành công",
+    SUBJECT_DELETED: "Môn học đã được xóa thành công",
+  },
+  SUBMISSIONS: {
+    SUBMISSION_NOT_FOUND: "Không tìm thấy bài nộp",
+    SUBMISSION_ALREADY_EXISTS: "Bài nộp đã tồn tại",
+    SUBMISSION_CREATED: "Bài nộp đã được tạo thành công",
+    SUBMISSION_UPDATED: "Thông tin bài nộp đã được cập nhật thành công",
+    SUBMISSION_DELETED: "Bài nộp đã được xóa thành công",
+    SUBMISSION_GRADED: "Bài nộp đã được chấm điểm thành công",
+  },
 };
+export default MESSAGES;
