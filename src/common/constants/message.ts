@@ -1,0 +1,32 @@
+const MESSAGE = {
+  USERS: {
+    USER_NOT_FOUND: "Không tìm thấy người dùng",
+    USER_ALREADY_EXISTS: "Người dùng đã tồn tại",
+    INVALID_CREDENTIALS: "Thông tin đăng nhập không hợp lệ",
+    USER_CREATED: "Người dùng đã được tạo thành công",
+    USER_UPDATED: "Thông tin người dùng đã được cập nhật thành công",
+    USER_DELETED: "Người dùng đã được xóa thành công",
+    PASSWORD_RESET: "Mật khẩu đã được đặt lại thành công",
+    EMAIL_VERIFICATION_SENT: "Email xác minh đã được gửi",
+    EMAIL_VERIFIED: "Email đã được xác minh thành công",
+  },
+  CLASSES: {
+    CLASS_NOT_FOUND: "Không tìm thấy lớp học",
+    CLASS_ALREADY_EXISTS: "Lớp học đã tồn tại",
+    CLASS_CREATED: "Lớp học đã được tạo thành công",
+    CLASS_UPDATED: "Thông tin lớp học đã được cập nhật thành công",
+    CLASS_DELETED: "Lớp học đã được xóa thành công",
+    CLASS_ENROLLED: "Bạn đã đăng ký vào lớp học thành công",
+    CLASS_UNENROLLED: "Bạn đã hủy đăng ký khỏi lớp học thành công",
+    CLASS_FULL: "Lớp học đã đầy, không thể đăng ký",
+    CLASS_NOT_ENROLLED: "Bạn chưa đăng ký vào lớp học này",
+  },
+  ASSINMENTS: {
+    ASSIGNMENT_NOT_FOUND: "Không tìm thấy bài tập",
+    ASSIGNMENT_ALREADY_EXISTS: "Bài tập đã tồn tại",
+    ASSIGNMENT_CREATED: "Bài tập đã được tạo thành công",
+    ASSIGNMENT_UPDATED: "Thông tin bài tập đã được cập nhật thành công",
+    ASSIGNMENT_DELETED: "Bài tập đã được xóa thành công",
+    ASSIGNMENT_SUBMITTED: "Bài tập đã được nộp thành công",
+  },
+};
